@@ -1,0 +1,27 @@
+[package]
+name = "atc001"
+version = "0.1.0"
+edition = "2018"
+
+[package.metadata.cargo-compete.bin]
+atc001-a = { alias = "a", problem = "https://atcoder.jp/contests/atc001/tasks/dfs_a" }
+atc001-b = { alias = "b", problem = "https://atcoder.jp/contests/atc001/tasks/unionfind_a" }
+atc001-c = { alias = "c", problem = "https://atcoder.jp/contests/atc001/tasks/fft_c" }
+
+[[bin]]
+name = "atc001-a"
+path = "src/bin/a.rs"
+
+[[bin]]
+name = "atc001-b"
+path = "src/bin/b.rs"
+
+[[bin]]
+name = "atc001-c"
+path = "src/bin/c.rs"
+
+[dependencies]
+proconio = "0.4.3"
+
+
+[dev-dependencies]
