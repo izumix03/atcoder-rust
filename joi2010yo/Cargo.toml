@@ -1,0 +1,17 @@
+[package]
+name = "joi2010yo"
+version = "0.1.0"
+edition = "2018"
+
+[package.metadata.cargo-compete.bin]
+joi2010yo-d = { alias = "d", problem = "https://atcoder.jp/contests/joi2010yo/tasks/joi2010yo_d" }
+
+[[bin]]
+name = "joi2010yo-d"
+path = "src/bin/d.rs"
+
+[dependencies]
+itertools = "0.10.3"
+proconio = "0.4.3"
+
+[dev-dependencies]
