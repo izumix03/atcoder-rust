@@ -10,10 +10,10 @@ fn dfs(x: usize, y: usize, c: &mut Vec<Vec<char>>, h: usize, w: usize) -> bool {
         return true;
     }
     c[y][x] = '#';
-
     if x + 1 < w && dfs(x + 1, y, c, h, w) {
         return true;
     }
+
     if x > 0 && dfs(x - 1, y, c, h, w) {
         return true;
     }
