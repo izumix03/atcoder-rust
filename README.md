@@ -1,7 +1,7 @@
 ```shell
-cargo compete new joi2010yo
+cargo compete new abc103_d
 
-cd joi2010yo 
+cd abc103_d
 cargo compete open
 
 cargo compete test d

@@ -1,0 +1,14 @@
+[package]
+name = "aizu_coin_changing"
+version = "0.1.0"
+edition = "2018"
+
+[[bin]]
+name = "aizu_coin_changing"
+path = "src/bin/coin_changing.rs"
+
+[dependencies]
+proconio = "0.4.3"
+
+
+[dev-dependencies]
