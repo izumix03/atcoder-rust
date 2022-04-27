@@ -1,4 +1,20 @@
+use proconio::{input};
+use proconio::marker::Chars;
 
+/// 文字列 A
+/// A より小さいものを何でも出力
+///
+/// 1文字以上 100文字以下
+/// ない場合は -1
+///
+///
 fn main() {
-    todo!();
+    input! {
+        t: Chars,
+    }
+    if t == "a" {
+        println!("-1");
+        return;
+    }
+    println!("a");
 }
