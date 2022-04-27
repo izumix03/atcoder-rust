@@ -1,0 +1,16 @@
+[package]
+name = "abc076"
+version = "0.1.0"
+edition = "2018"
+
+[package.metadata.cargo-compete.bin]
+abc076-c = { alias = "c", problem = "https://atcoder.jp/contests/abc076/tasks/abc076_c" }
+
+[[bin]]
+name = "abc076-c"
+path = "src/bin/c.rs"
+
+[dependencies]
+proconio = "0.4.3"
+
+[dev-dependencies]
