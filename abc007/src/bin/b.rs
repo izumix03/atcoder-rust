@@ -12,7 +12,7 @@ fn main() {
     input! {
         t: Chars,
     }
-    if t == "a" {
+    if t.len() == 1 && t[0] == 'a' {
         println!("-1");
         return;
     }
