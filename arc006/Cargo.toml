@@ -1,0 +1,16 @@
+[package]
+name = "arc006"
+version = "0.1.0"
+edition = "2018"
+
+[package.metadata.cargo-compete.bin]
+arc006-c = { alias = "c", problem = "https://atcoder.jp/contests/arc006/tasks/arc006_3" }
+
+[[bin]]
+name = "arc006-c"
+path = "src/bin/c.rs"
+
+[dependencies]
+proconio = "0.4.3"
+
+[dev-dependencies]
