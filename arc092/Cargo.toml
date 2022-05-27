@@ -1,0 +1,31 @@
+[package]
+name = "arc092"
+version = "0.1.0"
+edition = "2018"
+
+[package.metadata.cargo-compete.bin]
+arc092-c = { alias = "c", problem = "https://atcoder.jp/contests/arc092/tasks/arc092_a" }
+arc092-d = { alias = "d", problem = "https://atcoder.jp/contests/arc092/tasks/arc092_b" }
+arc092-e = { alias = "e", problem = "https://atcoder.jp/contests/arc092/tasks/arc092_c" }
+arc092-f = { alias = "f", problem = "https://atcoder.jp/contests/arc092/tasks/arc092_d" }
+
+[[bin]]
+name = "arc092-c"
+path = "src/bin/c.rs"
+
+[[bin]]
+name = "arc092-d"
+path = "src/bin/d.rs"
+
+[[bin]]
+name = "arc092-e"
+path = "src/bin/e.rs"
+
+[[bin]]
+name = "arc092-f"
+path = "src/bin/f.rs"
+
+[dependencies]
+proconio = "0.4.3"
+
+[dev-dependencies]
